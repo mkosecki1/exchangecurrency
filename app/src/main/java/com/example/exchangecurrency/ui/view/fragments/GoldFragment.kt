@@ -200,7 +200,7 @@ class GoldFragment : Fragment(), KodeinAware {
 
     private fun datePicker(dateTextView: TextView) {
         val dateSetListener =
-            DatePickerDialog.OnDateSetListener { view, year, monthOfYear, dayOfMonth ->
+            DatePickerDialog.OnDateSetListener { _, year, monthOfYear, dayOfMonth ->
                 cal.set(Calendar.YEAR, year)
                 cal.set(Calendar.MONTH, monthOfYear)
                 cal.set(Calendar.DAY_OF_MONTH, dayOfMonth)
@@ -210,7 +210,7 @@ class GoldFragment : Fragment(), KodeinAware {
             }
 
         DatePickerDialog(
-            context,
+            context!!,
             dateSetListener,
             cal.get(Calendar.YEAR),
             cal.get(Calendar.MONTH),
