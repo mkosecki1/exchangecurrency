@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Exchange currency</string>
+    <string name="currency">Waluta:</string>
+    <string name="code">Symbol:</string>
+    <string name="mid">Kurs</string>
+    <string name="gold_price_info">Cena złota w okresie: </string>
+    <string name="date">Data:</string>
+    <string name="price">Cena złota:</string>
+
+</resources>

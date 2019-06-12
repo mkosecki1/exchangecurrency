@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1976d2</color>
+    <color name="colorPrimaryDark">#004ba0</color>
+    <color name="colorPrimaryLight">#63a4ff</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorHomeBackground">#DCE0E0</color>
+    <color name="colorGoldBackground">#DCE0E0</color>
+    <color name="colorViewPagerBackground">#F5F8F8</color>
+    <color name="colortest1">#B71C1C</color>
+    <color name="colortest2">#0938C7</color>
+    <color name="colortest3">#131212</color>
+    <color name="colortest4">#EBCB32</color>
+</resources>
